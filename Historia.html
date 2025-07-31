@@ -1,0 +1,117 @@
+<html>
+<head>
+    <title>Historia del Gaming</title>
+    <style>
+        body {
+            background-color: #4C329E;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .boton {
+            background-color: #00e0ce;
+            color: #4C329E;
+            border: none;
+            padding: 12px 24px;
+            margin: 10px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .boton:hover {
+            background-color: #03da38;
+            color: #fff;
+        }
+        .botones {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .contenedor {
+            max-width: 700px;
+            margin: 40px auto;
+            background: rgba(0,0,0,0.2);
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+        }
+        .evento-titulo {
+            font-weight: bold;
+            color: #03da38;
+            font-size: 1.1em;
+        }
+        .imagenes-epoca {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin: 10px 0 0 0;
+        }
+        .img-historia {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            object-fit: contain;
+            background: #222;
+        }
+        @media (max-width: 500px) {
+            .imagenes-epoca {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Historia del Gaming</h1>
+        <p>
+            La historia de los videojuegos es una fascinante evolución tecnológica y cultural que ha transformado la forma en que las personas se entretienen y se conectan en todo el mundo.
+        </p>
+        <ul>
+            <li>
+                <span class="evento-titulo">Década de 1970:</span><br>
+                Nacen los primeros videojuegos comerciales como Pong y Space Invaders, marcando el inicio de la industria y la popularidad de los salones arcade.
+                <div class="imagenes-epoca">
+                    <img src="pong.jpg" alt="Pong" class="img-historia">
+                    <img src="space.avif" alt="Space Invaders" class="img-historia">
+                </div>
+            </li>
+            <li>
+                <span class="evento-titulo">Década de 1980:</span><br>
+                Surgen consolas como Atari 2600 y Nintendo Entertainment System (NES), llevando los videojuegos a los hogares. Aparecen franquicias legendarias como Mario, Zelda y Tetris.
+                <div class="imagenes-epoca">
+                    <img src="Atari-2600.jpg" alt="Atari 2600" class="img-historia">
+                    <img src="nintendo.jpg" alt="NES" class="img-historia">
+                </div>
+            </li>
+            <li>
+                <span class="evento-titulo">Década de 1990:</span><br>
+                La llegada de los gráficos en 16 y 32 bits, el auge de Sega y PlayStation, y la popularización de los juegos en 3D revolucionan la experiencia de juego.
+                <div class="imagenes-epoca">
+                    <img src="playstation.png" alt="PlayStation" class="img-historia">
+                    <img src="sega.jpg" alt="Sega" class="img-historia">
+                </div>
+            </li>
+            <li>
+                <span class="evento-titulo">Siglo XXI:</span><br>
+                El gaming se vuelve global y social con internet, juegos en línea, eSports y dispositivos móviles. Aparecen consolas modernas como PlayStation, Xbox y Nintendo Switch.
+                <div class="imagenes-epoca">
+                    <img src="moderna1.jpg" alt="Consola moderna 1" class="img-historia">
+                    <img src="moderna2.webp" alt="Consola moderna 2" class="img-historia">
+                </div>
+            </li>
+        </ul>
+        <div class="botones">
+            <button class="boton" onclick="location.href='Pagina.html'">Regresar al inicio</button>
+            <button class="boton" onclick="location.href='Consolas clasicas.html'">Ir a Consolas Clásicas</button>
+            <button class="boton" onclick="location.href='Juegos iconicos.html'">Ir a Juegos Icónicos</button>
+            
+        </div>
+    </div>
+</body>
+</html>

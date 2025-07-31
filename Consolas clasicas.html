@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Consolas Clásicas</title>
+    <style>
+        body {
+            background-color: #4C329E;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .boton {
+            background-color: #00e0ce;
+            color: #4C329E;
+            border: none;
+            padding: 12px 24px;
+            margin: 10px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .boton:hover {
+            background-color: #03da38;
+            color: #fff;
+        }
+        .botones {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .contenedor {
+            max-width: 700px;
+            margin: 40px auto;
+            background: rgba(0,0,0,0.2);
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+        }
+        .consola-titulo {
+            font-weight: bold;
+            color: #03da38;
+            font-size: 1.1em;
+        }
+        .img-consola {
+            width: 100%;
+            max-width: 180px;
+            height: auto;
+            display: block;
+            margin: 12px auto 10px auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            object-fit: contain;
+            background: #222;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Consolas Clásicas</h1>
+        <p>
+            Las consolas clásicas marcaron el inicio de la era dorada de los videojuegos y sentaron las bases para la industria actual.
+        </p>
+        <ul>
+            <li>
+                <span class="consola-titulo">Atari 2600 (1977):</span><br>
+                Una de las primeras consolas de éxito masivo, famosa por juegos como Space Invaders y Pitfall.
+                <img src="Atari-2600.jpg" alt="Atari 2600" class="img-consola">
+            </li>
+            <li>
+                <span class="consola-titulo">Nintendo Entertainment System - NES (1983):</span><br>
+                Revolucionó el mercado con títulos como Super Mario Bros, The Legend of Zelda y Metroid.
+                <img src="nintendo.jpg" alt="NES" class="img-consola">
+            </li>
+            <li>
+                <span class="consola-titulo">Sega Genesis (1988):</span><br>
+                Popularizó juegos como Sonic the Hedgehog y fue la principal competencia de Nintendo en los 90.
+                <img src="sega.jpg" alt="Sega Genesis" class="img-consola">
+            </li>
+            <li>
+                <span class="consola-titulo">PlayStation (1994):</span><br>
+                La primera consola de Sony, famosa por sus gráficos en 3D y juegos como Final Fantasy VII y Gran Turismo.
+                <img src="playstation.png" alt="PlayStation" class="img-consola">
+            </li>
+        </ul>
+        <div class="botones">
+            <button class="boton" onclick="location.href='Pagina.html'">Regresar al inicio</button>
+            <button class="boton" onclick="location.href='Historia.html'">Ir a Historia</button>
+            <button class="boton" onclick="location.href='Juegos iconicos.html'">Ir a Juegos Icónicos</button>
+            
+        </div>
+    </div>
+</body>
+</html>
